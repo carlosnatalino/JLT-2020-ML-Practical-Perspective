@@ -2,3 +2,5 @@ tensorflow-gpu
 jupyterlab
 scikit-learn
 pandas
+matplotlib
+xlrd
