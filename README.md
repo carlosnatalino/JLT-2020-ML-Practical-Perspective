@@ -1,6 +1,6 @@
 # Machine Learning for Optical Network Security Monitoring: A Practical Perspective
 
-Authors: [Marija Furdek](https://www.chalmers.se/en/staff/Pages/Marija-Furdek-Prekratic.aspx)$^1$, [Carlos Natalino](https://www.chalmers.se/en/staff/Pages/Carlos-Natalino-Da-Silva.aspx)$^1$, Fabian Lipp$^2$, David Hock$^2$, Andrea Di Giglio$^3$, and Marco Schiano$^3$
+Authors: [Marija Furdek](https://www.chalmers.se/en/staff/Pages/Marija-Furdek-Prekratic.aspx) $^1$, [Carlos Natalino](https://www.chalmers.se/en/staff/Pages/Carlos-Natalino-Da-Silva.aspx) $^1$, Fabian Lipp $^2$, David Hock $^2$, Andrea Di Giglio $^3$, and Marco Schiano $^3$
 
 $^1$ Department of Electrical Engineering, Chalmers University of Technology, Gothenburg, Sweden (e-mail: furdek@chalmers.se, carlos.natalino@chalmers.se).
 
