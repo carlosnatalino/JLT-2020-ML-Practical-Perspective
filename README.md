@@ -1,12 +1,12 @@
 # Machine Learning for Optical Network Security Monitoring: A Practical Perspective
 
-Authors: [Marija Furdek](https://www.chalmers.se/en/staff/Pages/Marija-Furdek-Prekratic.aspx) $^1$, [Carlos Natalino](https://www.chalmers.se/en/staff/Pages/Carlos-Natalino-Da-Silva.aspx) $^1$, Fabian Lipp $^2$, David Hock $^2$, Andrea Di Giglio $^3$, and Marco Schiano $^3$
+Authors: [Marija Furdek](https://www.chalmers.se/en/staff/Pages/Marija-Furdek-Prekratic.aspx)\*, [Carlos Natalino](https://www.chalmers.se/en/staff/Pages/Carlos-Natalino-Da-Silva.aspx)\*, Fabian Lipp\*\*, David Hock\*\* Andrea Di Giglio\*\*\*, and Marco Schiano\*\*\*
 
-$^1$ Department of Electrical Engineering, Chalmers University of Technology, Gothenburg, Sweden (e-mail: furdek@chalmers.se, carlos.natalino@chalmers.se).
+\* Department of Electrical Engineering, Chalmers University of Technology, Gothenburg, Sweden (e-mail: furdek@chalmers.se, carlos.natalino@chalmers.se).
 
-$^2$ Infosim GmbH & Co. KG, Wu ̈rzburg, Germany (e-mail: lipp@infosim.net, hock@infosim.net).
+\*\* Infosim GmbH & Co. KG, Wu ̈rzburg, Germany (e-mail: lipp@infosim.net, hock@infosim.net).
 
-$^3$ Telecom Italia, Turin, Italy (e-mail: andrea.digiglio@telecomitalia.it, marco.schiano@telecomitalia.it).
+\*\*\* Telecom Italia, Turin, Italy (e-mail: andrea.digiglio@telecomitalia.it, marco.schiano@telecomitalia.it).
 
 Accepted for publication in JLT.
 
@@ -15,7 +15,7 @@ We propose a framework for cognitive security diagnostics that comprises an atta
 
 Paper available at IEEE Xplore (to be published).
 
-![Optical testbed considered in this paper](optical-testbed.svg)
+![Optical testbed considered in this paper](./figures/optical-testbed.svg)
 
 ## What is in this repository?
 
