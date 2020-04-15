@@ -25,7 +25,10 @@ With respect to the dataset, we evaluated three different approaches. The datase
 - **FD**: Using the full dataset (dataset including lightpaths 1 and 2) to train a single ML model without specifying which samples comes from which path (we do not have one-hot information for the path).
 - **P1** and **P2**: Training the ML models for a single path (two models, one for each path).
 - **OH**: Using the full dataset to train a single model, specifying the lightpath which a sample comes from (including two one-hot columns for the path identification).
+
 The results showed that the **FD** approach achieves the best trade-off between complexity and accuracy, and was therefore used for the results in the paper.
+
+![ANN performance for the different dataset approaches](./figures/ann_cv_test_accuracy.svg)
 
 We are releasing the following codes:
 
@@ -34,6 +37,7 @@ We are releasing the following codes:
 - The implementation of the unsupervised learning (DBSCAN)
 - Result analysis and plotting
 
+![Performance results for the three ML models investigated](figures/sl_ssl_ul_performance_linear.svg)
 
 ## Setting up your environment (which libraries are required?)
 
