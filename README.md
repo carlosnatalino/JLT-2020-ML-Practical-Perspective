@@ -8,7 +8,7 @@ Authors: [Marija Furdek](https://www.chalmers.se/en/staff/Pages/Marija-Furdek-Pr
 
 \*\*\* Telecom Italia, Turin, Italy (e-mail: andrea.digiglio@telecomitalia.it, marco.schiano@telecomitalia.it).
 
-Accepted for publication in JLT. <p style='color: red'>This is a preliminary version and will be updated when the paper is published.</p>
+Accepted for publication in JLT.
 
 **Abstract:** In order to accomplish cost-efficient management of complex optical communication networks, operators are seeking automation of network diagnosis and management by means of Machine Learning (ML). To support these objectives, new functions are needed to enable cognitive, autonomous management of optical network security. This paper focuses on the challenges related to the performance of ML-based approaches for detection and localization of optical-layer attacks, and to their integration with standard Network Management Systems (NMSs).
 We propose a framework for cognitive security diagnostics that comprises an attack detection module with Supervised Learning (SL), Semi-Supervised Learning (SSL) and Unsupervised Learning (UL) approaches, and an attack localization module that deduces the location of a harmful connection and/or a breached link. The influence of false positives and false neg- atives is addressed by a newly proposed Window-based Attack Detection (WAD) approach. We provide practical implementation guidelines for the integration of the framework into the NMS and evaluate its performance in an experimental network testbed subjected to attacks, resulting with the largest optical-layer security experimental dataset reported to date.
@@ -32,10 +32,10 @@ The results showed that the **FD** approach achieves the best trade-off between 
 
 We are releasing the following codes:
 
-- The implementation of the supervised learning (artificial neural network)
-- The implementation of the semi-supervised learning (one-class support vector machine)
-- The implementation of the unsupervised learning (DBSCAN)
-- Result analysis and plotting
+- The implementation of the supervised learning (artificial neural network) [in this file](training-sl-model.ipynb)
+- The implementation of the semi-supervised learning (one-class support vector machine) [in this file](training-ul-ssl-models.ipynb#Semi-supervised-learning-algorithm-(OCSVM))
+- The implementation of the unsupervised learning (DBSCAN) [in this file](training-ul-ssl-models.ipynb#Unsupervised-learning-algorithm-(DBSCAN))
+- Result analysis and plotting [in this file](plotting.ipynb)
 
 ![Performance results for the three ML models investigated](figures/sl_ssl_ul_performance_linear.svg)
 
@@ -58,5 +58,14 @@ In the command line, at the folder containing this repository, you can run:
 Bibtex entry:
 
 ~~~~
-TO BE DEFINED
+@ARTICLE{FurdekEtAl:JLT:2020, 
+    author={M. {Furdek} and C. {Natalino} and F. {Lipp} and D. {Hock} and A. {Di Giglio} and M. {Schiano}}, 
+    journal={Journal of Lightwave Technology}, 
+    title={Machine Learning for Optical Network Security Monitoring: A Practical Perspective}, 
+    year={2020}, 
+    volume={}, 
+    number={}, 
+    pages={1-12},
+    doi={10.1109/JLT.2020.2987032},
+}
 ~~~~
