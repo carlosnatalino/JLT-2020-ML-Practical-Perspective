@@ -8,7 +8,7 @@ Authors: [Marija Furdek](https://www.chalmers.se/en/staff/Pages/Marija-Furdek-Pr
 
 \*\*\* Telecom Italia, Turin, Italy (e-mail: andrea.digiglio@telecomitalia.it, marco.schiano@telecomitalia.it).
 
-Accepted for publication in JLT.
+Paper available at IEEE Xplore: https://doi.org/10.1109/JLT.2020.2987032.
 
 **Abstract:** In order to accomplish cost-efficient management of complex optical communication networks, operators are seeking automation of network diagnosis and management by means of Machine Learning (ML). To support these objectives, new functions are needed to enable cognitive, autonomous management of optical network security. This paper focuses on the challenges related to the performance of ML-based approaches for detection and localization of optical-layer attacks, and to their integration with standard Network Management Systems (NMSs).
 We propose a framework for cognitive security diagnostics that comprises an attack detection module with Supervised Learning (SL), Semi-Supervised Learning (SSL) and Unsupervised Learning (UL) approaches, and an attack localization module that deduces the location of a harmful connection and/or a breached link. The influence of false positives and false neg- atives is addressed by a newly proposed Window-based Attack Detection (WAD) approach. We provide practical implementation guidelines for the integration of the framework into the NMS and evaluate its performance in an experimental network testbed subjected to attacks, resulting with the largest optical-layer security experimental dataset reported to date.
@@ -36,6 +36,7 @@ We are releasing the following codes:
 - The implementation of the semi-supervised learning (one-class support vector machine) [in this file](training-ul-ssl-models.ipynb#Semi-supervised-learning-algorithm-(OCSVM))
 - The implementation of the unsupervised learning (DBSCAN) [in this file](training-ul-ssl-models.ipynb#Unsupervised-learning-algorithm-(DBSCAN))
 - Result analysis and plotting [in this file](plotting.ipynb)
+- The implementation and analysis of the proposed Window-based Attack Detection (WAD) [in this file](wad.ipynb)
 
 ![Performance results for the three ML models investigated](figures/sl_ssl_ul_performance_linear.svg)
 
